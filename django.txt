@@ -13,8 +13,8 @@
 
 #Setup a Database using PostgreSQL
 - pip install psycopg2
-- sudo -m postgres 												# access a postgresql
-- psql 															# access the shell
+- sudo -m postgres 	# access a postgresql
+- psql 				# access the shell
 - postgres=# CREATE USER eak WITH PASSWORD 'eakAdmin'; 			# creates a user with a password
 - postgres=# CREATE DATABASE projectdb;							# creates the database itself
 - postgres=# GRANT ALL PRIVILEGES ON DATABASE projectdb TO eak;	# gives all access
@@ -36,4 +36,4 @@ DATABASES = {
     }
 }
 
-- python manage.py syncdb 										# initializes the database
+- python manage.py syncdb	# initializes the database
