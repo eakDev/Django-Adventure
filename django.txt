@@ -1,0 +1,16 @@
+#Playing with Django
+
+#Setup an environment and activate it
+- virtualenv .envs/projectenv
+- source .envs/projectenv/bin/activate
+
+#Install dependencies
+- pip install django
+
+#Create a Django Project
+- django-admin.py startproject project
+- python manage.py runserver 
+
+#Setup a Database using PostgreSQL
+- pip install psycopg2
+- 
